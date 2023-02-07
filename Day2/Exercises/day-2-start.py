@@ -1,4 +1,7 @@
 # Data Types
 
 # String
-print("Hello"[0])
+print("Hello"[4])
+
+# Concatenate String
+print("123"+"456")
