@@ -12,3 +12,6 @@ print(123 + 456)
 # Large Integer
 # Note that the underscores are for us humans, the computer will ignore them
 print(123_456_789)
+
+# Float
+print(3.14159)
