@@ -7,3 +7,4 @@ print(result)
 score = 0
 score += 1
 print(score)
+print(f"Your score is {score}")
