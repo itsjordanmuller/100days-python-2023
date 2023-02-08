@@ -22,3 +22,14 @@
 
 ### Day 2 Project
 - [x] Tip Calculator
+
+## Day 3
+### Day 3 Practice
+- [x] Roller Coaster Ticket Logic
+- [x] Odd or Even Check
+- [x] BMI Calculator V2
+- [x] Leap Year Checker
+- [x] Pizza Price Calculator
+- [x] Love "Calculator"
+### Day 3 Project
+- [x] Treasure Island Choose Your Own Adventure Game
