@@ -13,3 +13,10 @@ print(united_states[0])
 united_states.extend(["Silicon Valley, Northern California, Southern California"])
 
 print(united_states)
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+fruits_and_veggies = [fruits, vegetables]
+
+print(fruits_and_veggies)
