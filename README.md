@@ -33,3 +33,19 @@
 - [x] Love "Calculator"
 ### Day 3 Project
 - [x] Treasure Island Choose Your Own Adventure Game
+
+
+## Day 4
+
+### Day 4 Exercises
+- [x] Import & Use Random
+- [x] Create & Import a Python Module
+- [x] Create Updated Love "Calculator"
+- [x] Create a Coin Flip Program
+- [x] United States List Practice
+- [x] Banker Roulette, AKA "Who's Paying for the Meal?"
+- [x] Fruits & Veggies List Combining
+- [x] Treasure Map Plot a Point on a 3x3 Grid
+
+### Day 4 Project
+- [x] Rock Paper Scissors
