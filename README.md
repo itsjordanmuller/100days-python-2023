@@ -53,6 +53,14 @@
 ## Day 5
 
 ### Day 5 Exercises
+- [x] Loop Through List of Fruits
+- [x] Practicing the Importance of Indentation
+- [x] Use a Loop to Find Average Height in a List
+- [x] Use a Loop to Find the High Score
+- [x] Sum All Numbers Between 1 and 100
+- [x] Sum All Even Numbers Between 1 and 100
+- [x] Create FizzBuzz Using Loops and Modulo
 
 ### Day 5 Project
-- [x] Password Generator Easy
+- [x] Easy Password Generator
+- [x] Hard Password Generator
