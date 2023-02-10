@@ -19,7 +19,6 @@
 - [x] F-Strings
 - [x] Life in Weeks
 - [x] BMI Calculator
-
 ### Day 2 Project
 - [x] Tip Calculator
 
@@ -36,7 +35,6 @@
 
 
 ## Day 4
-
 ### Day 4 Exercises
 - [x] Import & Use Random
 - [x] Create & Import a Python Module
@@ -46,12 +44,10 @@
 - [x] Banker Roulette, AKA "Who's Paying for the Meal?"
 - [x] Fruits & Veggies List Combining
 - [x] Treasure Map Plot a Point on a 3x3 Grid
-
 ### Day 4 Project
 - [x] Rock Paper Scissors
 
 ## Day 5
-
 ### Day 5 Exercises
 - [x] Loop Through List of Fruits
 - [x] Practicing the Importance of Indentation
@@ -60,7 +56,16 @@
 - [x] Sum All Numbers Between 1 and 100
 - [x] Sum All Even Numbers Between 1 and 100
 - [x] Create FizzBuzz Using Loops and Modulo
-
 ### Day 5 Project
 - [x] Easy Password Generator
 - [x] Hard Password Generator
+
+## Day 6
+### Day 6 Exercises
+- [x] Learn About Defining Basic Functions
+- [x] Learn How to Make Reeborg Walk in a Square
+- [x] Use Functions & Loops to Jump Over Hurdles of Variable Width
+- [x] Use Functions & Loops to Jump Over Hurdles of Variable Height & Width
+### Day 6 Project
+- [x] Reeborg Maze Algorithm
+- [x] Reeborg Maze Challenge Test Cases
