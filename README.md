@@ -49,3 +49,10 @@
 
 ### Day 4 Project
 - [x] Rock Paper Scissors
+
+## Day 5
+
+### Day 5 Exercises
+
+### Day 5 Project
+- [x] Password Generator Easy
