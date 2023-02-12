@@ -12,8 +12,8 @@ word_list = ["aardvark", "baboon", "camel"]
 #chosen_word = word_list[random.randint(0, (len(word_list)-1))]
 chosen_word = random.choice(word_list)
 print(chosen_word)
-letter_guess = (input("Choose a single letter")).lower()
-if letter_guess in chosen_word:
+guess = input("Choose a single letter: ").lower()
+if guess in chosen_word:
     print("That is one of the letters.")
 else:
     print("That is not one of the letters.")
