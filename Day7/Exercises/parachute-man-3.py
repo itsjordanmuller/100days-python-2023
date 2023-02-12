@@ -1,22 +1,35 @@
 import random
 
-stages = ['''
+result = ['''
      ___
    _/   \_
  _/ \___/ \_
  \  /   \  /
   \/_____\/
+      
+ YOU FELL DOWN
 
+  YOU  LOSE
 
-
-
-
-      0
+      O
      /|\ 
      / \ 
 
-=========
+==============
 ''', '''
+
+ YOU MADE IT
+ DOWN SAFELY
+
+   YOU WIN
+
+      O
+     /|\ 
+     / \ 
+==============
+''']
+
+stages = ['''
      ___
    _/   \_
  _/ \___/ \_
@@ -28,7 +41,7 @@ stages = ['''
      /|\ 
      / \ 
 
-=========
+==============
 ''', '''
      ___
    _/   \_
@@ -41,7 +54,20 @@ stages = ['''
      /|\ 
      / \ 
 
-=========
+==============
+''', '''
+     ___
+   _/   \_
+ _/ \___/ \_
+ \  /   \  /
+  \/_____\/
+   \ /   /
+    \   /
+     \O/
+     /|\ 
+     / \ 
+
+==============
 ''', '''
      ___
    _/   \_
@@ -54,7 +80,7 @@ stages = ['''
      /|\ 
      / \ 
 
-=========
+==============
 ''', '''
      ___
    _/   \_
@@ -67,7 +93,7 @@ stages = ['''
      /|\ 
      / \ 
 
-=========
+==============
 ''', '''
      ___
    _/   \_
@@ -80,8 +106,10 @@ stages = ['''
      /|\ 
      / \ 
 
-=========
+==============
 ''']
+
+stages = stages[::-1]
 
 word_list = ["aardvark", "baboon", "camel"]
 
@@ -91,19 +119,37 @@ print(chosen_word)
 display = ["_"] * len(chosen_word)
 print(display)
 
-while "_" in display:
-    guess = input("Choose a single letter: ").lower()
-    for i, letter in enumerate(chosen_word):
-        if letter == guess:
-            display[i] = letter
-    print(display)
-print("Game over, you won!")
+# while "_" in display:
+#     guess = input("Choose a single letter: ").lower()
+#     for i, letter in enumerate(chosen_word):
+#         if letter == guess:
+#             display[i] = letter
+#     print(display)
+# print("Game over, you won!")
 
 #TODO-1: - Create a variable called 'lives' to keep track of the number of lives left. 
 #Set 'lives' to equal 6.
 
+lives = 6
+
 #TODO-2: - If guess is not a letter in the chosen_word,
 #Then reduce 'lives' by 1. 
 #If lives goes down to 0 then the game should stop and it should print "You lose."
+
+while "_" in display and lives > 0:
+    print(stages[6-lives])
+    guess = input("Choose a single letter: ").lower()
+    if guess not in chosen_word:
+        lives -= 1
+        print(f"You have {lives} lives left.")
+    for i, letter in enumerate(chosen_word):
+        if letter == guess:
+            display[i] = letter
+    print(display)
+
+if lives == 0:
+    print(result[0])
+else:
+    print(result[1])
 
 #TODO-3: - print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
