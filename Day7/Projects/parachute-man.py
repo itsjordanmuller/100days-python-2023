@@ -9,7 +9,8 @@ word_list = ["aardvark", "baboon", "camel"]
 
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
-chosen_word = word_list[random.randint(0, (len(word_list)-1))]
+#chosen_word = word_list[random.randint(0, (len(word_list)-1))]
+chosen_word = random.choice(word_list)
 print(chosen_word)
 letter_guess = (input("Choose a single letter")).lower()
 if letter_guess in chosen_word:
