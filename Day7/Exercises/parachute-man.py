@@ -19,6 +19,6 @@ guess = input("Choose a single letter: ").lower()
 #     print("That is not one of the letters.")
 for letter in chosen_word:
     if letter == guess:
-        print("Right")
+        print(guess)
     else:
-        print("Wrong")
+        print("?")
