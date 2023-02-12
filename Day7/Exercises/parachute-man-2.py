@@ -20,16 +20,14 @@ print(display)
 #TODO-3: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
 #Hint - Don't worry about getting the user to guess the next letter. We'll tackle that in step 3.
 
+# Step 3
+
+#TODO-1: - Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
+
 while "_" in display:
     guess = input("Choose a single letter: ").lower()
     for i, letter in enumerate(chosen_word):
         if letter == guess:
             display[i] = letter
     print(display)
-print("Game over.")
-
-# for letter in chosen_word:
-#     if letter == guess:
-#         print(guess)
-#     else:
-#         print("?")
+print("Game over, you won!")
