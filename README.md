@@ -69,3 +69,11 @@
 ### Day 6 Project
 - [x] Reeborg Maze Algorithm
 - [x] Reeborg Maze Challenge Test Cases
+
+## Day 7
+### Day 7 Exercises
+- [x] Building "Parachute Man" (AKA Hangman) Part 1
+- [x] Building "Parachute Man" (AKA Hangman) Part 2
+- [x] Building "Parachute Man" (AKA Hangman) Part 3
+### Day 7 Project
+- [x] "Parachute Man" (AKA Hangman) Project
