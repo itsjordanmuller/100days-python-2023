@@ -77,3 +77,15 @@
 - [x] Building "Parachute Man" (AKA Hangman) Part 3
 ### Day 7 Project
 - [x] "Parachute Man" (AKA Hangman) Project
+
+## Day 8
+### Day 8 Exercises
+- [x] Greet Function
+- [x] Paint Area Calculator
+- [x] Prime Number Checker
+- [x] Caesar Cipher Part 1
+- [x] Caesar Cipher Part 2
+- [x] Caesar Cipher Part 3
+### Day 8 Project
+- [x] Art.py Logo File
+- [x] Caesar Cipher Project with UX Improvements
