@@ -89,3 +89,13 @@
 ### Day 8 Project
 - [x] Art.py Logo File
 - [x] Caesar Cipher Project with UX Improvements
+
+## Day 9
+### Day 9 Exercises
+- [x] Dictionaries
+- [x] Grading Program
+- [x] Nesting Lists & Dictionaries
+- [x] Dictionary In List
+
+### Day 9 Project
+- [x] Silent Auction Program
