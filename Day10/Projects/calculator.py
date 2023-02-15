@@ -21,19 +21,24 @@ operators = {
     "-": subtract
 }
 
-num1 = int(input("What's the first number?: "))
-for operator in operators:
-    print(operator)
-operation_choice = input("Pick an operation from above: ")
-num2 = int(input("What's the second number?: "))
-calculation_function = operators[operation_choice]
-first_answer = calculation_function(num1, num2)
 
-print(f"{num1} {operation_choice} {num2} = {first_answer}")
+def calculator():
+    num1 = int(input("What's the first number?: "))
+    for operator in operators:
+        print(operator)
+    calculating = True
+        
+    while calculating:
+        operation_choice = input("Pick an operation: ")
+        num2 = int(input("What's the next number?: "))
+        calculation_function = operators[operation_choice]
+        answer = calculation_function(num1, num2)
 
-operation_choice = input("Pick an operation from above: ")
-num3 = int(input("What's the next number?: "))
-calculation_function = operators[operation_choice]
-second_answer = calculation_function(first_answer, num3)
+        print(f"{num1} {operation_choice} {num2} = {answer}")
 
-print(f"{first_answer} {operation_choice} {num2} = {second_answer}")
+        if input("Do you want to continue? 'y'/'n' ") == "y":
+            num1 = answer
+        else:
+            calculating = False
+            calculator()
+calculator()
