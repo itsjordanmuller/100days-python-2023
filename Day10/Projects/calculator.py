@@ -22,10 +22,10 @@ operators = {
 }
 
 num1 = int(input("What's the first number?: "))
-num2 = int(input("What's the second number?: "))
 for operator in operators:
     print(operator)
 operation_choice = input("Pick an operation from above: ")
+num2 = int(input("What's the second number?: "))
 calculation_function = operators[operation_choice]
 answer = calculation_function(num1, num2)
 
