@@ -1,3 +1,6 @@
+from art import logo
+print(logo)
+
 # Multiply
 def multiply(n1, n2):
     return n1 * n2
@@ -23,14 +26,14 @@ operators = {
 
 
 def calculator():
-    num1 = int(input("What's the first number?: "))
+    num1 = float(input("What's the first number?: "))
     for operator in operators:
         print(operator)
     calculating = True
         
     while calculating:
         operation_choice = input("Pick an operation: ")
-        num2 = int(input("What's the next number?: "))
+        num2 = float(input("What's the next number?: "))
         calculation_function = operators[operation_choice]
         answer = calculation_function(num1, num2)
 
