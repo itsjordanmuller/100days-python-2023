@@ -20,3 +20,9 @@ operators = {
     "+": add,
     "-": subtract
 }
+
+num1 = int(input("What's the first number?: "))
+num2 = int(input("What's the second number?: "))
+for operator in operators:
+    print(operator)
+operation_choice = input("Pick an operation from above: ")
