@@ -99,3 +99,7 @@
 
 ### Day 9 Project
 - [x] Silent Auction Program
+
+## Day 10
+### Day 10 Exercises
+### Day 10 Project
