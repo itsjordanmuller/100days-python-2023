@@ -33,7 +33,6 @@
 ### Day 3 Project
 - [x] Treasure Island Choose Your Own Adventure Game
 
-
 ## Day 4
 ### Day 4 Exercises
 - [x] Import & Use Random
