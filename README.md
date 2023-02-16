@@ -108,3 +108,9 @@
 - [x] Docstrings
 ### Day 10 Project
 - [x] Calculator Program
+
+## Day 11
+### Day 11 Exercises
+- [ ] Building the Blackjack Capstone Project
+### Day 11 Project
+- [ ] Blackjack Capstone Program
