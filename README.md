@@ -102,4 +102,9 @@
 
 ## Day 10
 ### Day 10 Exercises
+- [x] Functions with Outputs
+- [x] Multiple Return Values
+- [x] Days in Month (With Leap Year Consideration)
+- [x] Docstrings
 ### Day 10 Project
+- [x] Calculator Program
