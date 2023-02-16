@@ -114,3 +114,11 @@
 - [ ] Building the Blackjack Capstone Project
 ### Day 11 Project
 - [ ] Blackjack Capstone Program
+
+## Day 12
+### Day 12 Exercises
+- [ ] Namespaces: Local vs Global Scope
+- [ ] Modifying Global Variables
+- [ ] Constants in Python & Global Scope
+### Day 12 Project
+- [ ] Number Guessing Game
