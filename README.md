@@ -1,7 +1,7 @@
 # 100 Days of Python
 
 ## Day 1
-### Day 1 Practice
+### Day 1 Exercises
 - [x] Printing to the Console in Python
 - [x] Printing Practice
 - [x] Debugging Practice
@@ -11,7 +11,7 @@
 - [x] Band Name Generator
 
 ## Day 2
-### Day 2 Practice
+### Day 2 Exercises
 - [x] Practice Different Data Types
 - [x] Type Errors, Type Checking & Type Conversion
 - [x] Interactive
@@ -23,7 +23,7 @@
 - [x] Tip Calculator
 
 ## Day 3
-### Day 3 Practice
+### Day 3 Exercises
 - [x] Roller Coaster Ticket Logic
 - [x] Odd or Even Check
 - [x] BMI Calculator V2
