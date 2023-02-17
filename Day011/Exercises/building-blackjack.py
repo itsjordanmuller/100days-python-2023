@@ -30,7 +30,7 @@ def compare(player_score, computer_score):
     else:
         return "You lose."
 
-def play_game(round_number):
+def play_game(round_number, computer_wins, player_wins):
     print(f"---------------------  ROUND {round_number}  ---------------------")
     player_cards = []
     computer_cards = []
@@ -62,14 +62,35 @@ def play_game(round_number):
 
     print(f"Your final hand: {player_cards}, final score: {player_score}")
     print(f"Computer's final hand: {computer_cards}, final score: {computer_score}")
-    print(compare(player_score, computer_score))
+    result = compare(player_score, computer_score)
+    print(result)
+    if result == "You win!":
+        player_wins += 1
+    elif result == "You lose.":
+        computer_wins += 1
+    print(f"Total rounds won by computer: {computer_wins}")
+    print(f"Total rounds won by player: {player_wins}")
+    return computer_wins, player_wins
 
-play_again = "y"
+computer_wins = 0
+player_wins = 0
 round_number = 1
 print(logo)
 print("------------------  HOUSE RULES  ------------------\n1. The deck is unlimited in size.\n2. There are no jokers.\n3. The Jack/Queen/King all count as 10.\n4. The the Ace can count as 11 or 1.\n5. Cards are not removed from the deck as they are drawn.\n6. The computer is the dealer.\n---------------------  START  ---------------------")
 
+play_again = "y"
 while play_again == "y":
-    play_game(round_number)
+    computer_wins, player_wins = play_game(round_number, computer_wins, player_wins)
     round_number += 1
     play_again = input("Do you want to play again? Type 'y' or 'n': ")
+
+print("-------------------  GAME OVER ------------------- ")
+print(f"Total rounds played: {round_number - 1}")
+print(f"Total rounds won by computer: {computer_wins}")
+print(f"Total rounds won by player: {player_wins}")
+if computer_wins > player_wins:
+    print("The computer won more rounds. Better luck next time!")
+elif computer_wins < player_wins:
+    print("You won more rounds. Congratulations!")
+else:
+    print("It's a tie! Good game.")
