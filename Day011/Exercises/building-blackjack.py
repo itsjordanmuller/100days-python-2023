@@ -18,8 +18,12 @@ def play_game():
         player_cards.append(deal_card())
         computer_cards.append(deal_card())
 
-    # while not game_over:
-    #     #
+    while not game_over:
+        draw_card = input("Do you want to draw another card? Type 'y' or 'n': ")
+        if draw_card == "y":
+            player_cards.append(deal_card())
+        else:
+            game_over = True
 
 play_again = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
 while play_again == "y":
