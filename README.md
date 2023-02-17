@@ -110,9 +110,9 @@
 
 ## Day 11
 ### Day 11 Exercises
-- [ ] Building the Blackjack Capstone Project
+- [x] Building the Blackjack Capstone Project
 ### Day 11 Project
-- [ ] Blackjack Capstone Program
+- [x] Blackjack Capstone Program
 
 ## Day 12
 ### Day 12 Exercises
