@@ -58,6 +58,14 @@ def play_game():
             else:
                 game_over = True
 
+    while computer_score < 17 and not game_over:
+        computer_cards.append(deal_card())
+        computer_score = calculate_score(computer_cards)
+
+    print(f"Your final hand: {player_cards}, final score: {player_score}")
+    print(f"Computer's final hand: {computer_cards}, final score: {computer_score}")
+    print(compare(player_score, computer_score))
+
 play_again = "y"
 while play_again == "y":
     play_game()
