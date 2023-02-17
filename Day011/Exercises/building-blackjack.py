@@ -1,5 +1,4 @@
 import random
-
 from art import logo
 
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -31,9 +30,8 @@ def compare(player_score, computer_score):
     else:
         return "You lose."
 
-def play_game():
-    print(logo)
-    print("------------------  HOUSE RULES  ------------------\n1. The deck is unlimited in size.\n2. There are no jokers.\n3. The Jack/Queen/King all count as 10.\n4. The the Ace can count as 11 or 1.\n5. Cards are not removed from the deck as they are drawn.\n6. The computer is the dealer.\n---------------------  START  ---------------------")
+def play_game(round_number):
+    print(f"---------------------  ROUND {round_number}  ---------------------")
     player_cards = []
     computer_cards = []
     game_over = False
@@ -67,6 +65,11 @@ def play_game():
     print(compare(player_score, computer_score))
 
 play_again = "y"
+round_number = 1
+print(logo)
+print("------------------  HOUSE RULES  ------------------\n1. The deck is unlimited in size.\n2. There are no jokers.\n3. The Jack/Queen/King all count as 10.\n4. The the Ace can count as 11 or 1.\n5. Cards are not removed from the deck as they are drawn.\n6. The computer is the dealer.\n---------------------  START  ---------------------")
+
 while play_again == "y":
-    play_game()
+    play_game(round_number)
+    round_number += 1
     play_again = input("Do you want to play again? Type 'y' or 'n': ")
