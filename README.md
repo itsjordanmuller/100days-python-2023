@@ -121,3 +121,7 @@
 - [ ] Constants in Python & Global Scope
 ### Day 12 Project
 - [ ] Number Guessing Game
+
+## Day 13
+### Day 13 Exercises
+### Day 13 Project
