@@ -16,15 +16,15 @@ def calculate_score(cards):
 
 def compare(player_score, computer_score):
     if player_score > 21:
-        return "You went over. You lose."
+        return "You lose."
     elif computer_score > 21:
-        return "Computer went over. You win!"
+        return "You win!"
     elif player_score == computer_score:
         return "It's a draw."
     elif computer_score == 0:
-        return "Computer has a blackjack. You lose."
+        return "You lose."
     elif player_score == 0:
-        return "You have a blackjack! You win."
+        return "You win!"
     elif player_score > computer_score:
         return "You win!"
     else:
@@ -75,22 +75,10 @@ def play_game(round_number, computer_wins, player_wins):
 computer_wins = 0
 player_wins = 0
 round_number = 1
+play_again = "y"
 print(logo)
 print("------------------  HOUSE RULES  ------------------\n1. The deck is unlimited in size.\n2. There are no jokers.\n3. The Jack/Queen/King all count as 10.\n4. The the Ace can count as 11 or 1.\n5. Cards are not removed from the deck as they are drawn.\n6. The computer is the dealer.\n---------------------  START  ---------------------")
 
-play_again = "y"
 while play_again == "y":
     computer_wins, player_wins = play_game(round_number, computer_wins, player_wins)
     round_number += 1
-    play_again = input("Do you want to play again? Type 'y' or 'n': ")
-
-print("-------------------  GAME OVER ------------------- ")
-print(f"Total rounds played: {round_number - 1}")
-print(f"Total rounds won by computer: {computer_wins}")
-print(f"Total rounds won by player: {player_wins}")
-if computer_wins > player_wins:
-    print("The computer won more rounds. Better luck next time!")
-elif computer_wins < player_wins:
-    print("You won more rounds. Congratulations!")
-else:
-    print("It's a tie! Good game.")
