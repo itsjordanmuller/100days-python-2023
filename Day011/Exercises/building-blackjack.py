@@ -43,11 +43,20 @@ def play_game():
         computer_cards.append(deal_card())
 
     while not game_over:
-        draw_card = input("Do you want to draw another card? Type 'y' or 'n': ")
-        if draw_card == "y":
-            player_cards.append(deal_card())
-        else:
+        player_score = calculate_score(player_cards)
+        computer_score = calculate_score(computer_cards)
+
+        if player_score == 0 or computer_score == 0 or player_score > 21:
             game_over = True
+        else:
+            print(f"Your cards: {player_cards}, current score: {player_score}")
+            print(f"Computer's first card: {computer_cards[0]}")
+
+            draw_card = input("Do you want to draw another card? Type 'y' or 'n': ")
+            if draw_card == "y":
+                player_cards.append(deal_card())
+            else:
+                game_over = True
 
 play_again = "y"
 while play_again == "y":
