@@ -21,8 +21,10 @@ print(f"enemies outside function: {enemies}")
 # Global Scope
 player_health = 10
 
-def drink_potion():
-    potion_strength = 2
-    print(player_health)
-
-drink_potion()
+def game():
+    def drink_potion():
+        potion_strength = 2
+        print(player_health)
+    drink_potion()
+    
+# drink_potion()
