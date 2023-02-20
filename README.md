@@ -133,3 +133,7 @@
 ## Day 15
 ### Day 15 Exercises
 ### Day 15 Project
+
+## Day 16
+### Day 16 Exercises
+### Day 16 Project
