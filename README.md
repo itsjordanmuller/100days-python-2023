@@ -145,3 +145,7 @@
 ## Day 18
 ### Day 18 Exercises
 ### Day 18 Project
+
+## Day 19
+### Day 19 Exercises
+### Day 19 Project
