@@ -169,3 +169,7 @@
 ## Day 24
 ### Day 24 Exercises
 ### Day 24 Project
+
+## Day 25
+### Day 25 Exercises
+### Day 25 Project
