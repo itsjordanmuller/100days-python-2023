@@ -177,3 +177,7 @@
 ## Day 26
 ### Day 26 Exercises
 ### Day 26 Project
+
+## Day 27
+### Day 27 Exercises
+### Day 27 Project
