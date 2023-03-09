@@ -197,3 +197,7 @@
 ## Day 31
 ### Day 31 Exercises
 ### Day 31 Project
+
+## Day 32
+### Day 32 Exercises
+### Day 32 Project
