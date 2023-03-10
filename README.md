@@ -205,3 +205,7 @@
 ## Day 33
 ### Day 33 Exercises
 ### Day 33 Project
+
+## Day 34
+### Day 34 Exercises
+### Day 34 Project
