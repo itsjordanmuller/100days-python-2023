@@ -213,3 +213,7 @@
 ## Day 35
 ### Day 35 Exercises
 ### Day 35 Project
+
+## Day 36
+### Day 36 Exercises
+### Day 36 Project
