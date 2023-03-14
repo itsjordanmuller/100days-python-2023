@@ -114,6 +114,12 @@
 ### Day 11 Project
 - [x] Blackjack Capstone Program
 
+## A Note on My Absence
+### You may have noticed I've been away from this project for a bit, but still updating it.
+That's my way of keeping to my goal of 1 commit a day, while putting my main focus on education.
+I'll be working on Python again soon, and once I'm fully finished I'll be back on this as my main project until completed! 
+I'll keep adding the progress report templates so I know just how far behind I am on my goal!
+
 ## Day 12
 ### Day 12 Exercises
 - [ ] Namespaces: Local vs Global Scope
