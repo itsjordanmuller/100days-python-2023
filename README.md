@@ -217,3 +217,7 @@
 ## Day 36
 ### Day 36 Exercises
 ### Day 36 Project
+
+## Day 37
+### Day 37 Exercises
+### Day 37 Project
